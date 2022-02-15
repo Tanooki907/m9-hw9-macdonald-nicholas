@@ -131,3 +131,38 @@ footer {
   padding: 24px 0;
   color: var(--off-white);
 }
+
+@media screen and (max-width: 500px){
+  nav {
+    flex-direction: column;
+    align-self: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  main article {
+    padding: 48px 12px;
+  }
+
+  section.hero > .call-to-action {
+    font-size: 1.5rem;
+  }
+
+  main > article img {
+    float: none;
+    position: relative;
+    left: 20%;
+  }
+
+  main p {
+    margin-bottom: 24px;
+  }
+
+  main > section, main > article {
+    margin-bottom: 48px;
+  }
+}
